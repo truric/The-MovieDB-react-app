@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Movie from "./components/Movie";
 
 const BASE_URL = "https://api.themoviedb.org/3"
-const FEATURED_API = `${BASE_URL}/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_MOVIE_API_KEY}&page=1`;
-const SEARCH_API = `${BASE_URL}/search/movie?&api_key=${process.env.REACT_APP_MOVIE_API_KEY}&query=`;
+const FEATURED_API = `${BASE_URL}/discover/movie?sort_by=popularity.desc&api_key=27d8ad3c46793605d91c2b5713d0b5fe&page=1`;
+const SEARCH_API = `${BASE_URL}/search/movie?&api_key=27d8ad3c46793605d91c2b5713d0b5fe&query=`;
 
 function App() {
   const [ movies, setMovies ] = useState([]);
